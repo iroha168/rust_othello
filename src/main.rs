@@ -106,7 +106,7 @@ fn available_moves(player: u64, opponent: u64) -> u64{
 	availables |= empties & (transitional_board << 9);
 
 	//downward to the left
-	transitional_board = diagonal_opponent_mask & (player >> 6);
+	transitional_board = diagonal_opponent_mask & (player >> 7);
 	for _ in 0..5 {
 		transitional_board |= diagonal_opponent_mask & (transitional_board >> 7);
 	}
