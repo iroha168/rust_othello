@@ -1,0 +1,1 @@
+{"rustc":472806468571009845,"features":"[]","target":8327519873020607708,"profile":1508905141257649345,"path":1036222786711178230,"deps":[["lazy_static v1.0.0",17830082479251793586],["rand v0.4.2",7088396435924894641]],"local":[{"MtimeBased":[[1523093515,634300437],".fingerprint/othello-2c3c89a47bbcb89b/dep-bin-othello-2c3c89a47bbcb89b"]}],"rustflags":[],"epoch":"Epoch2015"}
